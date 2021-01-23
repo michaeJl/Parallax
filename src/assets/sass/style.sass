@@ -1,0 +1,116 @@
+*
+    box-sizing: border-box
+    font-family: 'Visia Pro', sans-serif
+
+body
+    margin: 0
+    
+
+.container_parallax 
+    position: relative
+    height: 100vh
+    overflow: hidden
+    .parallax
+        position: relative
+        // top: 0
+        // left: 0
+        // right: 0
+        // bottom: 0
+        // z-index: -1
+        img
+            transform: translate3d(-50%, 100px, 0px)
+            position: absolute
+            left: 50%
+            bottom: 0
+            z-index: -1
+            right: 0
+            top: 0
+            min-width: 100%
+            min-height: 100%
+    &_layer
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        width: 100%
+        height: 100%
+        header
+            min-height: 80px
+            width: 100%
+            background-color: #3e944282
+            border-bottom: 1px
+            box-shadow:  0 10px 10px rgba(0,0,0,0.22)
+            h1,small,h2
+                font-size: 35px
+                display: block
+                text-align: center
+                margin-block-start: 0
+                margin: 0
+                text-align: center
+                font-weight: 300
+                font-style: normal
+                color: #fbff04
+                // &:hover
+                //     color: red
+        .importantInfo
+            background-color: #fbff04bd
+            margin: 0 auto
+            min-height: 90px
+            width: 50%
+            align: justify
+            font-size: 35px
+            color: #2a802edb
+            border-radius: 10px
+            text-align: center
+            font-weight: 700
+        .bottom
+            background-color: #3e944282
+            position: absolute
+            z-index: 1
+            bottom: 0
+            min-height: 200px
+            width: 100%
+            &::before
+                content: ''
+                display: block
+                width: 100%
+                top: 0
+                height: 60px
+                background-color: #266b35
+                transform: translateY(300%)
+            ul
+                display: flex
+                justify-content: space-around
+                padding-inline-start: 0
+                min-height: 50px
+                width: 100%
+                list-style-type: none
+                color: #fbff04
+                font-size: 35px
+                line-height: 0
+                margin-block-start: 0
+                li
+                    text-align: center
+                    min-height: 50px
+                    
+            
+
+footer 
+    height: 200px
+    background-color: #fbff04aa
+    h3
+        text-align: center
+        margin-block-start: 0
+        font-weight: 300
+        font-style: normal
+        font-size: 35px
+
+// .parallax 
+//     background-image: url(http://img0.reactor.cc/pics/comment/full/BMW-F800-R-мото-личное-песочница-151998.jpeg)
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 100vh
+// Топ parallax

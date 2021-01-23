@@ -8,20 +8,26 @@
   },
   "browserslist": [
     "> 1%",
-    "not dead"
+    "not dead",
+    "last 2 versions"
   ],
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "babel-loader": "^8.2.2",
-    "core-js": "^3.8.2",
-    "webpack": "^5.14.0",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
-    "webpack-stream": "^6.1.1",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.13",
+    "core-js": "^3.8.2",
     "gulp": "^4.0.2",
-    "browser-sync": "^2.26.13"
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "webpack": "^5.14.0",
+    "webpack-stream": "^6.1.1"
   },
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
