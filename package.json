@@ -1,0 +1,38 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.2",
+    "webpack": "^5.14.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "webpack-stream": "^6.1.1",
+    "gulp": "^4.0.2",
+    "browser-sync": "^2.26.13"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "qwe"
+  ],
+  "author": "misha",
+  "license": "ISC"
+}
